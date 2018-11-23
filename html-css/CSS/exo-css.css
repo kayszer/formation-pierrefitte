@@ -1,0 +1,39 @@
+* {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background: orange;
+    height: 100px;
+}
+
+nav {
+    background: cadetblue;
+    height: 65px;
+}
+
+section {
+    width: 100%;
+}
+
+footer {
+    background: orange;
+    height: 65px;
+}
+
+article {
+    height: 300px;
+    background: cyan;
+}
+.first{
+height: 300px;
+background: pink;
+}
+
+.second{
+    background: rebeccapurple;
+    margin: 0 auto;
+    height: 600px;
+    width: 80%; 
+}

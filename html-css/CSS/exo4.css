@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: yellow;
+    color: white;
+    height: 90px;
+    text-align: center;
+}
+
+nav{
+    background: coral;
+    height: 60px;
+}
+
+.aa{
+    background: cyan;
+    height: 430px;
+}
+
+.aaa{
+    background: gray;
+    height: 430px;
+}
+article{
+    height: 844px;
+    margin: 0 auto;
+    margin-top: -45.2%;
+    background: green
+}
