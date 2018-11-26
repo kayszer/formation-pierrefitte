@@ -1,0 +1,119 @@
+body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    background: #c7eef3d7
+}
+
+fieldset {
+    padding: 10px;
+    margin: 20px 0;
+}
+
+fieldset:hover {
+    box-shadow: 0 0 20px black;
+}
+
+.first {
+    background: rgba(168, 197, 36, 0.6)
+}
+
+.number1 {
+    background: rgba(36, 168, 197, 0.6);
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.number1 label {
+    color: white;
+    width: 100px;
+    display: inline-block;
+    padding: 5px 0 15px 10px;
+}
+
+.number1 input {
+    width: 10px;
+    height: 20px;
+}
+
+.number2 {
+    background: rgba(230, 86, 235, 0.6);
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.number2 label {
+    width: 100px;
+    color: white;
+    display: inline-block;
+    padding: 10px 0 10 px 40px;
+}
+
+.number2 input {
+    width: 300px;
+    height: 20px;
+}
+
+
+.first label {
+    color: white;
+    width: 200px;
+    display: inline-block;
+    padding: 10px 0 15px 40px
+}
+
+.first input {
+    width: 300px;
+    height: 20px;
+}
+
+.legend {
+    color: #444;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.legend1 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.legend2 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    width: 15px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+input[type=password]:focus,
+input[type=date]:focus,
+input[type=textarea]:focus {
+    border: 5px solid red;
+
+}
+
+input[type="submit"] {
+    width: 10%;
+    color: #000;
+    background: #fe6921;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background: #e8ab2e;
+}

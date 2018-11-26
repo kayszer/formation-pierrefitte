@@ -1,0 +1,30 @@
+header {
+    background: url(http://www.rafirotravelmanagement.com/wp-content/uploads/2014/11/patra-jasa-bali-resort-villas-770x258.jpg) no-repeat center/ 100% 100%;
+    height: 258px;
+}
+
+.menu{
+    width: 20%;
+    height: 800px;
+    background: orange;
+    list-style-type: none;
+    float: left;
+}
+
+.article{
+    width: 80%;
+    float: right;
+}
+div{
+    width: 100%;
+}
+
+li {
+    height: 20px;
+    border: 1px solid;
+    padding: 5px;
+    margin: 0;
+}
+
+article {float: right;
+}
