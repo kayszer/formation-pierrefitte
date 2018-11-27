@@ -1,0 +1,17 @@
+body {
+    margin: auto;
+    width: 50%;
+}
+
+table {
+    width: 50%;
+    border: 2px solid black;
+}
+
+th {
+    border: 1px dotted #6a5acd;
+}
+
+td {
+    border: 1px dashed #6a5acd;
+}

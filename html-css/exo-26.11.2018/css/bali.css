@@ -1,3 +1,14 @@
+body{
+      padding: 0;
+      text-align: center;
+      background: url(https://asiaexchangeorg.r.worldssl.net//wp-content/uploads/2017/05/baliindonesia.jpg);
+}
+
+.global{
+    width: 47%;
+    margin: auto;
+}
+
 header {
     background: url(http://www.rafirotravelmanagement.com/wp-content/uploads/2014/11/patra-jasa-bali-resort-villas-770x258.jpg) no-repeat center/ 100% 100%;
     height: 258px;
@@ -10,13 +21,34 @@ header {
     list-style-type: none;
     float: left;
 }
+button{
+    width: 100%;
+    height:30px;
+    background: orangered;
+    margin: -5px;
+    margin-left: -15px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 .article{
     width: 80%;
+    height: 800px;
     float: right;
+    background: white;
+    text-align: center;
+    font-size: x-large;
 }
 div{
     width: 100%;
+}
+ul{
+    list-style: none;
+    width: 100%;
+    float: left;
+    margin-left: -40px;
 }
 
 li {
@@ -24,6 +56,7 @@ li {
     border: 1px solid;
     padding: 5px;
     margin: 0;
+    width: 100%;
 }
 
 article {float: right;

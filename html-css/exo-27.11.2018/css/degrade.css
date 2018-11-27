@@ -1,0 +1,28 @@
+.contenu{
+background: linear-gradient(to left, #40a497,#6840a4) ;
+width: 45em;
+height: 45em;
+margin: 0 auto;
+border-radius: 50%;
+}
+.contenu2{
+    background: radial-gradient(circle at center, black, white);
+    width: 45em;
+    height: 45em;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.contenu3{
+    background: repeating-linear-gradient(to right, green, red, blue , green 200px);
+     width: 45em;
+     height: 45em;
+     margin: 0 auto;
+     border-radius: 50%;
+}
+.contenu4{
+    background: repeating-radial-gradient(circle at center, black, yellow,orange, yellow 20px);
+         width: 45em;
+         height: 45em;
+         margin: 0 auto;
+         border-radius: 50%;
+}
