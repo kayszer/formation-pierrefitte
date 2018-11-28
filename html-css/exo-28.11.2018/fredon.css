@@ -1,0 +1,44 @@
+body{
+    background: white;
+}
+table{
+    border-collapse: collapse;
+}
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+td{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.black{
+    background: black
+}
+.marron1{
+    background: rgb(80, 35, 35)
+}
+
+.marron2{
+    background: rgb(122, 66, 66)
+}
+.beige{
+    background: rgb(230, 194, 142)
+}
+.beige2{
+    background: rgb(243, 189, 112)
+    }
+
+.kaki{
+    background: rgb(10, 65, 10)
+}
+.vert{
+    background: rgb(55, 168, 55)
+}
+.brown{
+    background: brown;
+}
+.yellow{
+    background: yellow;
+}

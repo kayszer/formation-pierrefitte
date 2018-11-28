@@ -1,0 +1,20 @@
+.c1, .c2{
+    height: 10em;
+    width: 10em;
+    float: left; 
+    /* display: inline-block; */
+    text-align: center;
+    border-radius: 20%;
+    margin: 3px;
+}
+
+.c1{
+    background: #7a43e0;
+}
+.c2{
+    background: #43e07a;
+}
+
+.clear{
+    clear: both;
+}

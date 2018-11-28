@@ -1,0 +1,31 @@
+body{
+    background: rgb(180, 16, 180);
+    text-align: center;
+    font-size: 18px;
+}
+
+section{
+    width: 60%;
+    margin: 0 auto;
+}
+
+td{
+    width: 2em; /*1em = 16px */
+    height: 2em;
+}
+
+.yellow{
+    background: yellow;
+}
+.gray{
+    background: gray;
+}
+.white{
+    background: white;
+}
+.black{
+    background: black;
+}
+.blue{
+    background: blue
+}
