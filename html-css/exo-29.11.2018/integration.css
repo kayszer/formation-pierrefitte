@@ -19,18 +19,18 @@ h3{
 .liens-header{
     height: 50%;
 }
-ul {
+.nav {
     list-style-type: none;
     float: right;
     margin: 0;
     padding: 0;
     padding-top: 2%;
 }
-li {
+.nav-item {
     float: left;
     width: 25%;
 }
-li a {
+.nav-item a {
     color: white;
     text-align: center;
     text-decoration: none;
@@ -38,7 +38,7 @@ li a {
     background: black;
 }
 
-li a:hover {
+.nav-item a:hover {
     background: rgb(44, 39, 39);
 }
 
@@ -46,6 +46,7 @@ li a:hover {
     width: 50%;
     margin: auto;
     margin-top: 10px;
+    height: 1230px;
 }
 .AC1, .AC2, .AC3, .AC4{
    width: 231px;
@@ -70,4 +71,57 @@ a{
     width: 10%;
     height: 23px;
     margin-left: 141px;
+}
+#img1, #img2{
+    float: left;
+    width: 700px;
+    margin-top: 10px;
+}
+.image1, .image2{
+    float: left;
+}
+
+.categories{
+    color: grey;
+    font-size: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#les-liens{
+    margin-top: -155px;
+    float: right;
+    width: 230px;
+}
+#les-liens ul {
+    list-style-image: url(../exo-29.11.2018/play-button.png);
+}
+#liens{
+    
+    margin-top: 10px;
+    float: left;
+}
+
+#liens a {
+    color: gray;
+}
+
+footer{
+    height: 45px;
+    color:#B1B2B3;
+    background: #1d1d1d;
+    margin: 0 auto;
+}
+#copyright{
+    margin-top: 10px;
+    padding: 0;
+    width: 40%;
+    float: left;
+    text-align: right;
+}
+#templates{
+    margin-top: 10px;
+    padding: 0;
+    width: 35%;
+    float: right
 }
