@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.contenu {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gauche,
+.droite {
+    margin-top: 5em;
+}
+
+ul {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.gauche ul {
+    margin: 3.2 em 0 0 0;
+}
+
+.gauche ul li {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 1em;
+    width: 10em;
+}
+
+.gauche ul li:first-child {
+    border-top: 1px solid #ccc;
+}
+
+/* Fin de la première colonne */
+
+/* Selectionne tous les <li> de la liste <ul> ayant la classe "liste" */
+ul.liste li {
+    border-left: 1px solid #ccc;
+}
+
+/* Selectionne tous le <li> de la liste <ul> ayant la classe change, elle même à l'interieur d'une classe droite */
+.droite .change ul li {
+    width: 10em;
+    border-top: 1px solid #ccc;
+    padding: 1em;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+/* Selectionne le 1er <li> de la liste <ul> ayant la classe "change" elle même à l'interieur de la classe droite */
+
+.droite .change ul li:first-child {
+    color: white;
+    font-weight: 900;
+    background: #5d5d5d;
+}
+
+/* Selectionne le dernier <li> de la liste <ul> ayant la classe "change" elle même à l'interieur de la classe droite */
+.droite .change ul li:last-child {
+    border-bottom: 1px solid#ccc;
+}
+
+/* Selectionne un <li> précis  (5eme element) de la liste <ul> ayant la classe "change" elle même à l'interieur de la classe droite */
+.droite .change ul li:nth-child(5) {
+    background: red;
+}
+
+.droite .change ul:hover {
+    cursor: pointer;
+    background: linear-gradient(#d5d5d5, #8a8a8a);
+    transform: scale(1.4);
+    transition-duration: 2s;
+}
+
+.droite .change ul:hover li:first-child {
+    background: #000;
+
+}
+
+.video,
+.carte {
+    width: 50%;
+    float: left;
+}
