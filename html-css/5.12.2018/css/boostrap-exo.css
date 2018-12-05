@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+}
+.col-sm-12{
+    height: 200px;
+    line-height: 180px;
+}
+.esp8{
+    height: 50px;
+    line-height: 30px;
+}
+.col-sm-8{
+    height: 300px;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+.col-sm-4{
+    height: 275px;
+}
+.fin1{
+    position: absolute;
+   bottom: 273px;
+   right: 240px;
+    width: 120px;
+}
+.fin2{
+    position: absolute;
+    bottom: 273px;
+    right: 120px;
+    width: 120px;
+}
+.esp14{
+    height: 30px;
+    line-height: 24px;
+}
