@@ -1,0 +1,157 @@
+body{
+    width: 60%;
+    margin-left: 20%;
+    border: 2px solid black;
+}
+header{
+    background: green;
+    height: 100px;
+}
+menu{
+    text-align: center;
+    background: rgb(223, 61, 88);
+    height: 30px;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+.PS1{
+    padding: 15px 20px 0 20px; 
+    height: 350px;
+}
+.PS2{
+    padding: 10px 20px 10px 20px;
+    height: 350px;
+}
+.S1{
+    width: 49%;
+    height: 340px;
+    background:url(https://i.pinimg.com/originals/b0/1f/75/b01f757e25024df2d585ed5daa821eba.jpg)no-repeat ;
+    float: left;
+}
+.S2{
+    width: 49%;
+    height: 340px;
+    background: yellow;
+    float: right;
+}
+.S3{
+    width: 49%;
+    height: 340px;
+    background: purple;
+    float: left;
+}
+.S4{
+     width: 49%;
+     height: 340px;
+     background:red;
+     float: right;
+}
+footer{
+    background: green;
+    height: 80px;
+}
+
+@media screen and (max-width: 1800px){
+    header{
+        background: purple;
+    }
+    menu{
+        background: rgba(65, 102, 161, 0.575);
+    }
+    .S1{
+        background: gray;
+    }
+    .S2{
+        background: rgba(65, 102, 161, 0.575)
+    }
+    .S3{
+        background: rgb(214, 214, 140);
+    }
+    .S4{
+        background: greenyellow;
+    }
+    footer{
+        background: purple;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    header {
+        background: blue;
+    }
+
+    menu {
+        background: red;
+    }
+
+    .S1 {
+        background: orangered;
+    }
+
+    .S2 {
+        background: green;
+    }
+
+    .S3 {
+        background: yellow;
+    }
+
+    .S4 {
+        background: pink;
+    }
+
+    footer {
+        background: blue;
+    }
+}
+@media screen and (max-width: 900px) {
+    header {
+        background: purple;
+    }
+
+    menu {
+        background: rgba(65, 102, 161, 0.575);
+    }
+    .PS1{
+        height: 600px;
+
+    }
+
+    .S1 {
+        background: gray;
+        float: none;
+        width: 100%;
+        height: 300px;
+    }
+
+    .S2 {
+        background: rgba(65, 102, 161, 0.575);
+        float: none;
+        width: 100%;
+        height: 300px;
+    }
+    .PS2{
+        height: 600px;
+        padding: 0px 20px 10px 20px
+
+    }
+
+    .S3 {
+        background: rgb(214, 214, 140);
+        float: none;
+        width: 100%;
+        height: 300px;
+    }
+
+    .S4 {
+        background: greenyellow;
+        float: none;
+        width: 100%;
+        height: 300px;
+    }
+
+    footer {
+        background: purple;
+    }
+}
