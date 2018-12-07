@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+body{
+    background: rgb(63, 175, 123);
+}
+main{
+    width: 50%;
+    margin-left: 25%;
+}
+.header{
+    background: url(img/woodPlank.jpg)
+}
+nav{
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;margin-right: 30px;
+    color: black;
+}
+.cesoir{
+    float: left;
+    font-size: 50px;
+    font-family:'Caveat Brush', cursive;
+    width: 20%;
+    margin-left: 20px;
+    height: 200px;
+}
+.E{
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    height: 200px;
+    position: relative;
+    bottom: 10px;
+}
+.S{
+    border-bottom: 4px solid rgb(184, 10, 111);
+}
+.li{
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.cerf{
+    text-align: center;
+}
+.arrow{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(184, 10, 111);
+    margin-top: 60px;
+}
+.body{
+    background: white;
+    height: 1800px;
+}
+.N01{
+    float: left;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}
+.N01img{
+    float: right;
+    width: 70%;
+    height: 350px;
+}
+h1{
+    margin: 0;
+    margin-top: 35px;
+}
+.N02{
+    float: right;
+    width: 25%;
+    height: 350px;
+    text-align: center;
+}
+.N02img{
+    float: left;
+    width: 75%;
+    height: 350px;
+}
+.N03 {
+    float: left;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}
+
+.N03img {
+    float: right;
+    width: 70%;
+    height: 350px;
+}
+hr {
+    width: 10%;
+    height: 4px;
+    background: rgb(184, 10, 111);
+}
+.FG{
+float: left;
+width: 20%;
+text-align: center;
+margin-left: 10px;
+}
+.FD{
+    float: right;
+    width: 20%;
+    height: 240px;
+}
+.cesoir2 {
+    float: left;
+    font-size: 50px;
+    font-family: 'Caveat Brush', cursive;
+    width: 100%;
+    margin-left: 20px;
+    padding-bottom: 45px;
+}
+.RS{
+    margin-top: 200px;
+    color: rgb(184, 10, 111);
+}
+.txt{
+    color: rgb(184, 10, 111);
+    font-size: 12px;
+}
+.tr {
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-top : 130px solid rgb(184, 10, 111, 0.8);
+  border-left : 130px solid transparent;
+  position: absolute;
+  left: 875px;
+  top: 252px;
+}
