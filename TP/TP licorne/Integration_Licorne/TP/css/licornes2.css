@@ -1,0 +1,118 @@
+.global{
+    background: url(../img/background.png)
+}
+header{
+    background: rgb(221, 57, 85);
+    height: 50px;
+    color: white;
+}
+
+h1{
+    float: left;
+    margin: 5px;
+}
+ul{
+    float: right;
+}
+a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white
+}
+.logo{
+    text-align: center;
+}
+h2{
+    position: relative;
+    bottom: 220px;
+    font-size: 35px;
+    color: rgb(221, 57, 85);
+    font-style: italic;
+}
+#body{
+    background: white;
+    width: 70%;
+    height: 1020px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    bottom: 200px;
+}
+
+.prin{
+    font-style: italic;
+    color: rgb(221, 57, 85);
+    margin-left: 18px;
+}
+.licorne{
+    font-style: italic;
+    color: rgb(221, 57, 85);
+}
+.map{
+    font-style: italic;
+    color: rgb(221, 57, 85);
+    margin-left: 20px;
+}
+.principe{
+    margin-top: 40px;
+    width: 95%;
+    margin: 0 auto;
+}
+.image{
+    margin: 20px;
+    height: 320px;
+}
+figure{
+    width: 300px;
+    float: left;
+    margin: 5px;
+}
+figure:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+    transition-duration: 4s;
+}
+figcaption{
+    text-align: center;
+    background:rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 20px;
+    position: relative;
+    bottom: 20px;
+}
+map{
+    margin: 10px;
+}
+.prin2{
+    width: 49%;
+    float: left;
+}
+.coor{
+    width: 49%;
+    float: right;
+}
+input{
+    width: 45%;
+}
+button{
+    height: 30px;
+    background: rgb(221, 57, 85);
+    border: 0 solid rgb(221, 57, 85);
+    width: 60px;
+    border-radius: 2px;
+    color: white; 
+}
+footer{
+    background: rgb(231, 132, 149);
+    color: white;
+    text-align: right;
+    height: 35px;
+    margin-top: -170px;
+}
+h4{
+    color: rgb(216, 74, 97);
+}
+.container{
+    width: 70%;
+}
