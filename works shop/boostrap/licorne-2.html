@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="licorne-2.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <title>licorne en boostrap</title>
+</head>
+<body>
+    <!--Div.fluid pour l'en-tête car elle prend width au complet.-->
+    <div class="fluid">
+        <header>
+            <!--Créer 2 division pour le logo et la navigation-->
+            <div class="logo">
+                <h1><a href="#">MyUnicorn</a></h1>
+            </div>
+            <!--Nav pour le menu-->
+            <nav class="nav">
+                <div class="navigation">
+                    <!--menu avec ancres-->
+                    <ul>
+                        <li><a href="#intro">LE PRINCIPE</a></li>
+                        <li><a href="#list">NOS LICORNES</a></li>
+                        <li><a href="#contact">NOUS TROUVER</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <!--div global-->
+        <div class="container">
+            <!--Rainbow-->
+            <div class="row rainbow">
+                <div class="col" >
+                    <h1>Un jour, Une licorne</h1>
+                </div>
+            </div>
+            <!--Fin Rainbow-->
+        </div>
+        <!--Le contenue de la page dans le bloc blanc-->
+        <div class="container global">
+            <!--Les licornes-->
+            <div class="row" id="intro">
+                <div class="col"> 
+                    <h2><i class="far fa-star"></i> Le principe</h2>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem libero tempora recusandae consectetur, sit illo
+                            numquam ad blanditiis esse reprehenderit fugit porro accusamus deserunt! Beatae corporis porro nulla provident
+                            fugiat.
+                            Quibusdam, incidunt, maxime officia ut reprehenderit, alias possimus laborum reiciendis doloremque ipsum ipsa?
+                            Ratione pariatur ad vitae sapiente, similique magni animi, asperiores ducimus nam, ipsa aut temporibus
+                            explicabo dolore ullam.
+                            Doloremque maiores labore at commodi rem voluptatem dolore esse, magni eligendi dolorem sit sunt odit,
+                            delectus, neque perferendis saepe beatae quidem. Odit ut similique facilis? Voluptatem quae officiis eaque
+                            aliquam.
+                            Voluptatum minima libero ad fuga, blanditiis soluta expedita veniam itaque tenetur inventore, nesciunt alias!
+                            Est cum, porro ipsum nulla sequi esse natus enim nam cupiditate perferendis repudiandae velit distinctio a!</p>
+                    </div>
+                </div>
+            </div>
+            <h2><i class="far fa-star"></i> Nos licornes</h2>
+            <div class="row" id="list">
+                <div class="col image">
+                    <figure>
+                        <img src="img/unicorns/photo1.jpg" alt="">
+                        <figcaption>Lulu Confetty</figcaption>
+                    </figure>
+                </div>
+                <div class="col image">
+                    <figure>
+                        <img src="img/unicorns/photo2.jpg" alt="">
+                        <figcaption>Lapillon Magik</figcaption>
+                    </figure>
+                </div>
+                <div class="col image">
+                    <figure>
+                        <img src="img/unicorns/photo3.jpg" alt="">
+                        <figcaption>El Ninjacorn</figcaption>
+                    </figure>
+                </div>
+                <div class="col image">
+                    <figure>
+                        <img src="img/unicorns/photo4.jpg" alt="">
+                        <figcaption>Sweety Candy</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <h2><i class="far fa-star"></i> Nous trouver</h2>
+            <div class="row" id="contact">
+                <div class="col">
+                    <div class="maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10500.749867690434!2d2.3563028!3d48.8546355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb2bbd365849898f2!2sEcole+Webforce3!5e0!3m2!1sfr!2sfr!4v1544617718000"
+                            width="450" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <h4>Notre élevage de licornes est situé au:</h4>
+                        <p>18 Rue Geoffroy l'Asnier <br>
+                            75004 Paris <br>
+                            01.23.45.67.89</p>
+
+                        <h4>Newsletter</h4>
+
+                        <p>Abonnez-vous simplement à notre newsletter mensuelle !</p>
+
+                        <form action="">
+                            <input type="email" name="email" placeholder="votre@email.com"><br>
+                            <input type="submit" value="Valider">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>2016&copy;Webforce3</footer>
+    </div>
+    <!--Fin container global-->
+    </main>
+
+</body>
+</html>

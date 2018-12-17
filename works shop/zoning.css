@@ -1,0 +1,46 @@
+.container{
+    width: 900px !important;
+}
+.r01{
+    height: 200px;
+}
+
+.r01 .col-md-3{
+    background: blue;
+}
+
+.r02{
+    background: purple;
+    height: 40px;
+}
+
+.r03{
+    height: 200px;
+}
+
+.rc01{
+    background: blue;
+    height: 600px;
+}
+.rc02{
+    background: grey;
+}
+.rc03{
+    background: orangered;
+}
+
+.r04{
+    height: 200px;
+    background: yellow;
+}
+
+.r05{
+    height: 200px;
+}
+.bl{
+    background: blue;
+}
+
+.wh{
+    background: white;
+}

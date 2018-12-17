@@ -1,0 +1,46 @@
+nav{
+    background: rgb(127, 175, 54);
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: -20px -10px 0px 0px #B1CDA9;
+}
+
+ul{
+    line-height: 45px;
+}
+
+li{
+    float: left;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a{
+    color: white;
+}
+
+li a:hover{
+    color: black;
+    text-decoration: none;
+
+}
+p{
+   float: left;
+   display: inline-block;
+   margin-right: 10px;
+   color: white;
+}
+
+.presentation{
+    border: 1px dashed black;
+}
+
+.grt{
+    background: url(../IMAGE/demi-rond.png);
+    width: 29%;
+    height: 52px;
+}
