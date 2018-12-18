@@ -1,3 +1,25 @@
+.vide1{
+    background: url(../IMAGE/header_haut.png);
+    height: 70px;
+    margin-top: -55px;
+}
+.vide2{
+    background: url(../IMAGE/pattern.jpg);
+    height: 180px;
+
+}
+.vide3{
+    background: url(../IMAGE/lines.png);
+    height: 230px;
+
+}
+.container{
+    position: relative;
+    top: -390px;
+}
+
+
+
 nav{
     background: rgb(127, 175, 54);
     height: 50px;
@@ -37,10 +59,53 @@ p{
 
 .presentation{
     border: 1px dashed black;
+    border-radius: 10px;
+    background: white;
+    width: 1000px;
+    height: 370px;
+    position: relative;
+    top: 3px;
+    left: 50px;
+}
+.prelude{
+    margin-top: -19px;
+    margin-left: 10px;
+
 }
 
 .grt{
     background: url(../IMAGE/demi-rond.png);
     width: 29%;
-    height: 52px;
+    height: 80px;
+    position: relative;
+    top: -28px;
+}
+.dd{
+    width: 108px;
+    position: relative;
+    left: 330px;
+    bottom: 170px;
+}
+.ker-louis{
+    width: 460px;
+    border: 1px solid black;
+    border-radius: 5px;   
+}
+
+#ker-louis{
+    margin: 15px 15px;
+}
+
+#ker-l{
+    border: 5px solid rgb(32, 11, 32);
+    border-radius: 20px;
+    
+}
+
+h1{
+    font-size: 23px;
+}
+
+h2{
+    font-size: 20px;
 }
