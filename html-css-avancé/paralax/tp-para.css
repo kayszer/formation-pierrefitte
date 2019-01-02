@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.parallax {
+    /* L'image de fond*/
+    background: url(img/ciel.jpg);
+    /* la hauteur de l'image */
+    height: 100%;
+    /* les propriétés qui vont créé l'effet parallax au scroll */
+    background-attachment: fixed;
+    /* Attache l'image par rapport à l'écran afin d'eviter qu'elle ne défile au moment du scroll */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-1 {
+    /* L'image de fond*/
+    background: url(img/pc.jpg);
+    /* la hauteur de l'image */
+    height: 100%;
+    /* les propriétés qui vont créé l'effet parallax au scroll */
+    background-attachment: fixed;
+    /* Attache l'image par rapport à l'écran afin d'eviter qu'elle ne défile au moment du scroll */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div.scroll {
+    height: 280px;
+    font-size: 36px;
+}
+
+div.scroll p {
+    margin: 0;
+}
+
+#scroll-1 {
+    background-image: url(img/Matrix-revolution.jpg)
+        color-stop(0, rgb(230, 18, 18)),
+        color-stop(0, rgb(255, 202, 63)),
+        color-stop(0, rgb(63, 201, 50)),
+        color-stop(0, rgb(33, 54, 237));
+    background-image: -webkit-linear-gradient(right, rgb(230, 18, 18) 0%, rgb(255, 202, 63) 0%, hsl(115, 60%, 49%) 50%, rbg(33, 54, 237) 100%);
+    background-image: -o-linear-gradient(right, rgb(230, 18, 18) 0%, rgb(255, 202, 63) 0%, rgb(63, 201, 50) 50%, rgb(33, 54, 237) 100%);
+    background-image: -moz-linear-gradient(right, rgb(230, 18, 18) 0%, rgb(255, 202, 63) 0%, rgb(63, 201, 50) 50%, rgb(33, 54, 237) 100%);
+    background-image: -ms-linear-gradient(right, rgb(230, 18, 18) 0%, rgb(255, 202, 63) 0%, rgb(63, 201, 50) 50%, rgb(33, 54, 237) 100%);
+    background-image: linear-gradient(to right, rgb(230, 18, 18) 0%, rgb(255, 202, 63) 0%, rgb(63, 201, 50) 50%, rgb(33, 54, 237) 100%);
+}
+
+#scroll-2 {
+    background-image: url(img/sans-titre.png);
+}
+
+#scroll-3 {
+    background-image: url(img/thumb-1920-515590.jpg)
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
