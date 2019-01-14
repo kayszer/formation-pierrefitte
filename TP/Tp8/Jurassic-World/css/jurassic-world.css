@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+header{
+    height: 1000px;
+}
+
+.vide1{
+    background: url(../img/dinosaure.jpg);
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+}
+.fix{
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background: rgba(000, 000, 000, 0.5);
+    position: fixed;
+}
+li :hover{
+    cursor: pointer;
+}
+a{
+    color: white;
+}
+.li-nav-fix{
+    width: 140px;
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 11px;
+}
+
+button{
+    width: 130px;
+    background: #1C5F81;
+    border: none;
+    color: white;
+}
+.billet :hover{
+    background: white;
+    color: #1C5F81;
+}
+i{
+    margin-right: 10px;
+}
+.logo{
+    background: url(../img/logo.png);
+    width: 800px;
+    height: 859px;position: relative;
+    top: -920px;
+    left: 562px;
+}
+.climatise{
+    background: url(../img/climatise.png);
+    width: 343px;
+    height: 259px;
+    position: absolute;
+    right: 15px;
+    top: 741px;
+}
+.container{
+    width: 750px;
+}
+h1{
+    font-family: 'Diplomata SC',cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.entree{
+    /* background: url(../img/entree.png); */
+    width: 100%;
+    height: 500px;
+    transition: transform 2s;
+}
+.entree :hover{
+    transform: scale(1.2);
+}
+.texte{
+    font-family: 'Roboto Slab',serif;
+}
+.row{
+    font-size: 25px;
+    text-align: center;
+}
+
+.reservation{
+    list-style: none;
+    text-align: center;
+}
+.reserv{
+    width: 130px;
+    height: 40px;
+}
