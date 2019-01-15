@@ -97,3 +97,33 @@ h1{
     width: 130px;
     height: 40px;
 }
+h3{
+    font-size: 33px;
+}
+.tarifs{
+    font-size: 15px;
+}
+.tarif{
+    text-align: left;
+    font-size: 15px;
+}
+.AEL{
+    width: 200px;
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    margin-left: 75px
+}
+.acenli{
+    width: 200px;
+}
+.footer{
+    background: black;
+    height: 300px;
+}
+.li-footer{
+    text-align: left;
+}
+.logo-footer{
+    text-align: right;
+}

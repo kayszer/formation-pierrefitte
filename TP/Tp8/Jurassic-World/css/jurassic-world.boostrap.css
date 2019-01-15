@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body{
+    width: 100%;
+}
+.nav{
+    background: rgba(000, 000,000, 0.7);
+    color: white;
+    text-align: center;
+}
+.a-li{
+    color: white;
+    text-decoration: none;
+}
+.li-nav-fix{
+    color: white;
+    width: 200px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.dinosaure{
+    background: url(../img/dinosaure.jpg);
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+}
+.logo1 {
+    position: relative;
+    top: -920px;
+    left: 562px;
+}
+.climatise {
+    background: url(../img/climatise.png) no-repeat;
+    width: 343px;
+    height: 259px;
+    position: absolute;
+    right: 15px;
+    top: 741px;
+}
