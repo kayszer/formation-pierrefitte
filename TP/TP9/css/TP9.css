@@ -1,0 +1,139 @@
+.fixed-top{
+    background: rgb(231, 231, 231);
+}
+
+.brandy-logo{
+    margin-left: 30%;
+}
+.navbar-brand{
+    color: black;
+}
+.general{ 
+    background: url(../images/header_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.c-site{
+    background: white;
+}
+.fd-para{ 
+   
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.an{
+    text-align: center;
+    position: absolute;
+    top: 26%;
+}
+.t-an{
+    font-size: 45px;
+}
+.i-mouse{
+    margin-left: 50%;
+    width: 30px;
+    position: relative;
+    bottom: 70px;
+}
+i{
+    color: #FBA4B0;
+}
+.fas{
+    margin-left: 40%;
+}
+.t-fas{
+    text-align: center;
+}
+#about{
+    text-align: center;
+}
+.quotes{
+    text-align: center;
+}
+.owl-carousel{
+    text-align: center;
+}
+.schroll{
+    height: 350px;
+    width: 100%;
+    background: rgba(000, 000, 000, 0.5)
+}
+.esp{
+    height: 140px;
+}
+.t-schroll{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 100px;
+}
+.fa-3x {
+    float: left;
+    margin-left: 125px;
+}
+.mac{
+    position: relative;
+    bottom: 60px;
+}
+.dt{
+    text-align: center;
+}
+.img-1{
+    padding: 10px;
+}
+
+.img-2 {
+    padding: 10px;
+}
+.img-3 {
+    padding: 10px;
+}
+.img-4 {
+    padding: 10px;
+}
+.img-5 {
+    padding: 10px;
+}
+.img-6 {
+    padding: 10px;
+}
+#contact{
+    text-align: center;
+}
+
+.form{
+    background: #F1F1F1;
+}
+label{
+    width: 100%
+}
+input{
+    width: 80%;
+}
+textarea{
+    width: 80%;
+    height: 90px;
+}
+#envoyer{
+    height: 40px;
+    color: white;
+    background: red;
+    border: none;
+}
+.envoyer{
+    transition: transform 2s;
+}
+.envoyer :hover{
+    transform: scale(1.03);
+}
+.footer{
+    text-align: center;
+}
+.a-footer{
+    background: #F1F1F1;
+}
